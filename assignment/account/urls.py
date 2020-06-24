@@ -3,6 +3,8 @@ from .import views
 from .views import *
 
 urlpatterns=[
+    
+    path('', redirect_view, name='redirect_view'),
     path('member/', MemberView.as_view(), name="member"),
     path('member/<mid>/', MemberUpdateView.as_view(), name='member-update'),
     path('period/', PeriodView.as_view(), name='period'),

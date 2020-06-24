@@ -5,7 +5,7 @@ from datetime import datetime
 
 
 class Member(models.Model):
-   mid = models.CharField(max_length=12, unique=True)
+   mid = models.CharField(max_length=12,)
    real_name = models.CharField(max_length=60)
    TIMEZONES = tuple(zip(pytz.all_timezones, pytz.all_timezones))
    tz = models.CharField(max_length=32, choices=TIMEZONES, default='UTC')

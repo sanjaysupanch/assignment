@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from rest_framework import viewsets, permissions, status, generics
 from rest_framework.generics import * 
 from .serializers import *
@@ -21,3 +21,7 @@ class PeriodUpdateView(generics.RetrieveUpdateDestroyAPIView):
     serializer_class=PeriodSerializer
     queryset=Period.objects.all()
     lookup_field="id"
+
+def redirect_view(request):
+    response = redirect('/member/')
+    return response

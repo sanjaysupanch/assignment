@@ -1,6 +1,5 @@
 # FullThrottle Labs Assignment
 <a href="https://fullthrottle-api.herokuapp.com/">Visit to our website!</a>
-This web-app is under development
 <br/><br/>
 
 <h4>Command to run this project</h4>

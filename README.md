@@ -1,5 +1,8 @@
 # FullThrottle Labs Assignment
 <a href="https://fullthrottle-api.herokuapp.com/">Visit to our website!</a>
+<a href='https://fullthrottle-api.herokuapp.com/member/W4YX1328A'>For Update and Delete (filter through 'mid')</a>
+<a href='https://fullthrottle-api.herokuapp.com/period/'>List of Period table</a>
+<a href='https://fullthrottle-api.herokuapp.com/period/1'>For Update and Delete period(filter through 'id')</a>
 <br/><br/>
 
 <h4>Command to run this project</h4>

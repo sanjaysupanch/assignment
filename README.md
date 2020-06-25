@@ -4,7 +4,7 @@
 
 <h4>Command to run this project</h4>
 <p>Note: In manage.py directory run</p>
- ![path](linux.jpeg) <br>
+
 <b>$ pip3 install -r requirement.txt</b></br>
 <b>$ python3 manage.py makemigrations</b></br>
 <b>$ python3 manage.py migrate</b></br>

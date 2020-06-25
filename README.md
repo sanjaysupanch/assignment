@@ -33,4 +33,5 @@
 * DeleteView
 
 # Populating Database With Faker Library
-* In order to enter the fake data into our database, we are creating a python file and then running it to complete the process. In our python script, we are first setting our Django environment by using our project settings. Then we are setting-up Django after importing it. To use our faker library, we are creating an instance for it. We are generating a fake name by using obj.name().  We can generate random numbers too with the help of faker library, but we have to specify the number of digits for that.All process has to repeat for N times, where N is the number of Member. Hence, a for loop is used for that purpose.
+* In order to enter the fake data into our database, we are creating a python file and then running it to complete the process. In our python script, we are first setting our Django environment by using our project settings. Then we are setting-up Django after importing it. To use our faker library, we are creating an instance for it. We are generating a fake name by using obj.name().  We can generate random numbers too with the help of faker library, but we have to specify the number of digits for that. All process has to repeat for N times, where N is the number of Member. Hence, a for loop is used for that purpose.
+

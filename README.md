@@ -3,7 +3,7 @@
 <br/><br/>
 
 <h4>Command to run this project</h4>
-<p>Note: In manage.py directory </p>
+<p>Note: In manage.py directory run</p>
 <b>$ pip3 install -r requirement.txt</b></br>
 <b>$ python3 manage.py makemigrations</b></br>
 <b>$ python3 manage.py migrate</b></br>

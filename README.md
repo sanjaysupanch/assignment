@@ -13,9 +13,8 @@
 
 <p> The generic class-based-views was introduced to address the common use cases in a Web application, such as creating new objects, form handling, list views,       pagination, archive views and so on.<br>
   
-   They come in the Django core, and you can implement them from the module django.views.generic.
+   It come in the Django core, and we can implement them from the module django.views.generic.
 
-   They are great and can speed up the development process.
 
 <h4>Here is an overview of the available views:</h4>
 
